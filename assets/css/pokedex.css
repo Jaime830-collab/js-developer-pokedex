@@ -125,6 +125,7 @@
 .pokemon .detail img {
     max-width: 100%;
     height: 70px;
+    align-self: flex-end;
 }
 
 .pagination {
@@ -145,6 +146,39 @@
     border: none;
     border-radius: 1rem;
 }
+
+
+
+span{
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+
+.pokemon .detail .abilities {
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+}
+
+
+#detail-abilities {
+    background-color: #00000088;
+    border-radius: 5px;
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+}   
+
+.abilities {
+    list-style: none;
+    font-size: .625rem;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+
 
 @media screen and (min-width: 380px) {
     .pokemons {
